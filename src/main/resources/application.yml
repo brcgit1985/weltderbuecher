@@ -1,13 +1,13 @@
 datadump.location:
-  author: /Users/brcmac1985/IdeaProjects/Authors_dump.txt
-  works: /Users/brcmac1985/IdeaProjects/Works_dump.txt
+  author: /../././Authors_dump.txt
+  works: /../././Works_dump.txt
 
 spring:
   data:
     cassandra:
       keyspace-name: main
-      username: inKtwKPDgMWULLCRvSCSslje
-      password: s7inEpW_5ZKJP9IHU1FolvTegLA0cu,1lTQ2PRCKYhABHnCuIx3dj0lppC4RTMfC9lM18+LyrZG7OTE4kOi0KPPNuYYPYrsHzHZUNmB+_+X1Z5ujue,L7GZlFDg6e.cR
+      username: testusername
+      password: testpassword
       schema-action: create_if_not_exists
       request:
         timeout: 10s
@@ -21,10 +21,10 @@ datastax.astra:
   secure-connect-bundle: secure-connect.zip
 
 astra.db:
-  id: 1010edaa-730b-4bdb-afc0-f79b83019797
+  id: astra db id
   region: europe-west1
   keyspace: main
-  application.token: AstraCS:inKtwKPDgMWULLCRvSCSslje:06c30462cd88adf7737e99c9a9cbfffeb9d2a3b29ef453940c963ffa192bdbc6
+  application.token: AstraCS:app token
 
 
 
